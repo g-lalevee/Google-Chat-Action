@@ -7,18 +7,37 @@ This action prints "Hello World" or "Hello" + the name of a person to greet to t
 
 ## Inputs
 
-### `who-to-greet`
+### `googleChatRoom`
 
-**Required** The name of the person to greet. Default `"World"`.
+**Required** The name of the Google Chat Room.
+
+### `googleChatKey`
+
+**Required** Google Chat Webhook Key.
+
+### `googleChatToken`
+
+**Required** Google Chat Webhook Token.
+
+### `message`
+
+**Required** Message Text to be sent to Google Chat.
 
 ## Outputs
 
-### `time`
+### `status`
 
-The time we greeted you.
+Status code returned by Google Chat
+
+### `statusText`
+
+Text of Status code returned by Google Chat
 
 ## Example usage
 
-uses: actions/hello-world-javascript-action@v1
+uses: actions/Google-Chat-Action@v1
 with:
-  who-to-greet: 'Mona the Octocat'
+  googleChatRoom: 'xxxxxxx'
+  googleChatKey: 'yyyyyyyy'
+  googleChatToken: 'zzzzzz'
+  message: 'text text'
