@@ -15,7 +15,9 @@ try {
   console.log(`${message}`);
 
   const webhookURL = 'https://chat.googleapis.com/v1/spaces/' + googleChatRoom + '/messages?key=' + googleChatKey + '&token=' + googleChatToken;
-  const data = JSON.stringify(message);
+  const data = JSON.stringify({
+    'text': message
+  });
 
   fetch(webhookURL, {
     method: 'POST',
