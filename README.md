@@ -35,9 +35,11 @@ Text of Status code returned by Google Chat
 
 ## Example usage
 
-uses: actions/Google-Chat-Action@v1
-with:
-  googleChatRoom: 'xxxxxxx'
-  googleChatKey: 'yyyyyyyy'
-  googleChatToken: 'zzzzzz'
-  message: 'text text'
+````
+    uses: actions/Google-Chat-Action@v1
+    with:
+        googleChatRoom: 'xxxxxxx'
+        googleChatKey: 'yyyyyyyy'
+        googleChatToken: 'zzzzzz'
+        message: 'text text'
+```
