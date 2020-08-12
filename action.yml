@@ -1,5 +1,5 @@
-name: 'Hello World'
-description: 'Greet someone and record the time'
+name: 'google-chat-action'
+description: 'Send MEssage To Google Chat Room'
 inputs:
   googleChatRoom:  # id of Chat Room
     description: 'Google Chat Room ID'

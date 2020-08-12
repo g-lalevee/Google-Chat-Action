@@ -36,7 +36,7 @@ Text of Status code returned by Google Chat
 ## Example usage
 
 ````
-    uses: actions/Google-Chat-Action@v1
+    uses: g-lalevee/Google-Chat-Action@v1
     with:
         googleChatRoom: 'xxxxxxx'
         googleChatKey: 'yyyyyyyy'
