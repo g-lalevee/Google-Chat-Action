@@ -42,4 +42,3 @@ Text of Status code returned by Google Chat
         googleChatKey: 'yyyyyyyy'
         googleChatToken: 'zzzzzz'
         message: 'text text'
-```
