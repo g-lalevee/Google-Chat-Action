@@ -1,13 +1,23 @@
 name: 'Hello World'
 description: 'Greet someone and record the time'
 inputs:
-  who-to-greet:  # id of input
-    description: 'Who to greet'
+  googleChatRoom:  # id of Chat Room
+    description: 'Google Chat Room ID'
     required: true
-    default: 'World'
+  googleChatKey:  # Google Chat Webhook Key 
+    description: 'Google Chat Webhook Key'
+    required: true
+  googleChatToken:  # Google Chat Webhook Token 
+    description: 'Google Chat Webhook Token'
+    required: true
+  message:  # Message to be sent to Google Chat Room 
+    description: 'Message to be sent'
+    required: true
 outputs:
-  time: # id of output
-    description: 'The time we greeted you'
+  status: 
+    description: 'Status Code of message publication'
+  statusText: 
+    description: 'Status Text of message publication'
 runs:
   using: 'node12'
   main: 'index.js'

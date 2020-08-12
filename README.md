@@ -1,3 +1,6 @@
+
+[![PyPI status](https://img.shields.io/pypi/status/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/) 
+
 # Google-Chat-Action
 
 This action prints "Hello World" or "Hello" + the name of a person to greet to the log.
