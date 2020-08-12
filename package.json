@@ -1,7 +1,7 @@
 {
-  "name": "Google-Chat-action",
+  "name": "google-chat-action",
   "version": "1.0.0",
-  "description": "Let's try",
+  "description": "Send Message to Google Chat Room",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,15 +11,14 @@
     "url": "git+https://github.com/g-lalevee/Google-Chat-Action.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "C. Lalevée",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/g-lalevee/Google-Chat-Action/issues"
   },
   "homepage": "https://github.com/g-lalevee/Google-Chat-Action#readme",
   "dependencies": {
-    "@actions/core": "^1.2.4",
-    "@actions/github": "^4.0.0",
+    "@actions/core": "^1.2.4",  
     "node-fetch": "^2.6.0"
   }
 }
